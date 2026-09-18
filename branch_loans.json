@@ -1,0 +1,35 @@
+{
+    "branch": "Grameen Bank - Bhola",
+    "customers": [
+        {
+            "name": "Susam",
+            "district": "Bhola",
+            "loan_amount_bdt": 70000,
+            "active": "active"
+        },
+        {
+            "name": "Rupa",
+            "district": "Bhola",
+            "loan_amount_bdt": 80000,
+            "active": "active"
+        },
+        {
+            "name": "Arun",
+            "district": "Bhola",
+            "loan_amount_bdt": 60000,
+            "active": "active"
+        },
+        {
+            "name": "Mehedi",
+            "district": "Khulna",
+            "loan_amount_bdt": 40000,
+            "active": "active"
+        },
+        {
+            "name": "Emon",
+            "district": "Barishal",
+            "loan_amount_bdt": 70000,
+            "active": "active"
+        }
+    ]
+}

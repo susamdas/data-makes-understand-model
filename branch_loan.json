@@ -1,0 +1,18 @@
+{
+    "branch": "Grameen Bank - Bhola",
+    "customers": {
+        "branch": "Grameen Bank - Dhaka",
+        "customers": [
+            {
+                "name": "Susam",
+                "loan_dbt": 50000,
+                "active": true
+            },
+            {
+                "name": "Rupa",
+                "loan_dbt": 60000,
+                "active": true
+            }
+        ]
+    }
+}
