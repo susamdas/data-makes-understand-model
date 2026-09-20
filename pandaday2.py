@@ -1,0 +1,13 @@
+import pandas as pd
+df = pd.read_csv("branch_loans_data.csv")
+print("Print Information of the DataFrame")
+print(df.info())
+print("Print Filter customer from 'Bhola' district only")
+print(df[df["district"] == "Bhola"])
+print("The average loan amount per district")
+print(df.groupby("district")["loan_amount_bdt"].mean())
+print("print sort by loan_amount_bdt in descendeing and prith the top 3") 
+print(df.sort_values("loan_amount_bdt", ascending = False).head(3))
+df["loan_category"] = df["loan_amount_bdt"].apply(lambda x: "High" if x>50000 else "Low") 
+print("Print the new column loan_category")
+print(df[["loan_category", "loan_amount_bdt"]])
